@@ -1,6 +1,6 @@
 # JavaFX with CSS
 
-This repository contains a simple [JavaFX](https://en.wikipedia.org/wiki/JavaFX) program that uses CSS.
+This repository contains a simple Java program that uses [JavaFX](https://en.wikipedia.org/wiki/JavaFX) with CSS for its user interface.
 
 <br>
 

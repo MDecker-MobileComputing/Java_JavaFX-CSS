@@ -1,4 +1,4 @@
-package de.mide;
+ï»¿package de.mide;
 
 
 import javafx.application.Application;
@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 
 /**
- * Demo für Verwendung von CSS, um UI-Eigenschaften in einer JavaFX-Anwendung zu definieren.
+ * Demo fÃ¼r Verwendung von CSS, um UI-Eigenschaften in einer JavaFX-Anwendung zu definieren.
  * <br>
  
  * Doku der CSS-Eigenschaften von JavaFX: https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
@@ -18,7 +18,7 @@ import javafx.stage.Stage;
 public class JavaFXmitCSS extends Application {
 
  /**
-  * Lifecycle-Methode, überschreiben für Aufbau der Oberfläche.
+  * Lifecycle-Methode, Ã¼berschreiben fÃ¼r Aufbau der OberflÃ¤che.
   *
   * @param stage  Vergleichbar mit "JFrame"-Instanz bei Swing.
   */
@@ -28,19 +28,19 @@ public class JavaFXmitCSS extends Application {
       FlowPane flowPane = new FlowPane(25, 25); // horizontaler & vertikaler Abstand
 
 
-      // Label 1: CSS über String mit Methode <i>setStyle</i> zuweisen
+      // Label 1: CSS Ã¼ber String mit Methode <i>setStyle</i> zuweisen
       Label label1 = new Label("Label 1");
       label1.setStyle("-fx-background-color: yellow; -fx-text-fill: red;"); // -fx-text-fill: Textfarbe
       flowPane.getChildren().add( label1 );
 
 
-      // Label 2: CSS über externe CSS-Datei
+      // Label 2: CSS Ã¼ber externe CSS-Datei
       Label label2 = new Label("Label 2");
       label2.setId("spezial_label"); // diese ID wird auch in der CSS-Datei verwendet
       flowPane.getChildren().add( label2 );
 
 
-      // Buttons: CSS wird in externer CSS-Datei über Klassen-Selektor festgelegt.
+      // Buttons: CSS wird in externer CSS-Datei Ã¼ber Klassen-Selektor festgelegt.
       Button button1 = new Button("Dummy-Button 1");
       flowPane.getChildren().add( button1 );
 
@@ -49,7 +49,7 @@ public class JavaFXmitCSS extends Application {
 
 
       // Szene erzeugen und externe CSS-Datei laden
-      Scene scene = new Scene( flowPane, 300, 200 ); // Breite=300, Höhe=200
+      Scene scene = new Scene( flowPane, 300, 200 ); // Breite=300, HÃ¶he=200
 
       // Datei "Stil.css" laden, die im selben Verzeichnis wie die Java-Datei der
       // vorliegenden Klasse liegt.

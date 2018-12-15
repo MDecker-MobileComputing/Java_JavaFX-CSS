@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaFXmitCSS",
+            "request": "launch",
+            "mainClass": "de.mide.JavaFXmitCSS"
+        }
+    ]
+}

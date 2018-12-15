@@ -1,0 +1,31 @@
+/*
+ * Diese CSS-Datei wird dem Scene-Objekt zugewiesen.
+ *
+ * Doku zu JavaFX-CSS-Eigenschaften:
+ * https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html
+ *
+ * This file is licensed under the terms of the BSD 3-Clause License.
+ */
+
+
+/*
+ * ID-Selektor; diese CSS-Eigenschaften werden nur auf UI-Elemente angewendet,
+ * die über die Methode "setId()" die ID "spezial_label" zugewiesen bekommen.
+ */
+#spezial_label {
+
+  -fx-font-size:   24pt;
+  -fx-font-weight: bold;
+  -fx-background-color: #ffefd5;
+}
+
+
+/*
+ * Klassen-Selektor, d.h. diese CSS-Eigenschaften werden auf alle Button-Elemente
+ * angewendet.
+ */
+.button {
+
+  -fx-text-fill: green;
+  -fx-background-color: lemonchiffon;
+}

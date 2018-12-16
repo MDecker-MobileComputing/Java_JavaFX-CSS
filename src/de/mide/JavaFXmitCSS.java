@@ -1,4 +1,4 @@
-﻿package de.mide;
+package de.mide;
 
 
 import javafx.application.Application;
